@@ -1,11 +1,11 @@
 # Weather-Data_Analysis_for_Agricultural_Productivity
 Predict the impact of weather conditions on agricultural productivity. Use weather and agricultural data from multiple sources to build a predictive model that estimates crop yields based on various weather parameters like temperature, rainfall, humidity, etc
 
-# Overview
+# Project Overview
 
-Project Overview:
-Data Collection (Extract):
-1. Weather Data: Extract weather data from APIs such as OpenWeatherMap, NOAA, or any other relevant source that provides historical weather data.
+
+1. Data Collection (Extract):
+Weather Data: Extract weather data from APIs such as OpenWeatherMap, NOAA, or any other relevant source that provides historical weather data.
 Agricultural Data: Obtain agricultural productivity data, which could include crop yield rates, planting and harvest dates, and crop types from agricultural datasets available on platforms like Kaggle or government databases.
 2. Data Preprocessing (Transform):
 Cleaning: Handle missing values, remove duplicates, and correct errors in both weather and agricultural datasets.
