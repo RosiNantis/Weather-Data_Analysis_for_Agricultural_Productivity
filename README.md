@@ -5,12 +5,12 @@ Predict the impact of weather conditions on agricultural productivity. Use weath
 
 
 1. Data Collection (Extract):
-Weather Data: Extract weather data from APIs such as OpenWeatherMap, NOAA, or any other relevant source that provides historical weather data.
-Agricultural Data: Obtain agricultural productivity data, which could include crop yield rates, planting and harvest dates, and crop types from agricultural datasets available on platforms like Kaggle or government databases.
+1.1 Weather Data: Extract weather data from APIs such as OpenWeatherMap, NOAA, or any other relevant source that provides historical weather data.
+1.2 Agricultural Data: Obtain agricultural productivity data, which could include crop yield rates, planting and harvest dates, and crop types from agricultural datasets available on platforms like Kaggle or government databases.
 2. Data Preprocessing (Transform):
-Cleaning: Handle missing values, remove duplicates, and correct errors in both weather and agricultural datasets.
-Integration: Merge weather and agricultural data based on dates and geographical locations to create a comprehensive dataset for analysis.
-Feature Engineering: Generate new features that could influence agricultural productivity, such as accumulated rainfall over specific periods, average temperature during critical growth stages, and so on.
+2.1 Cleaning: Handle missing values, remove duplicates, and correct errors in both weather and agricultural datasets.
+2.2 Integration: Merge weather and agricultural data based on dates and geographical locations to create a comprehensive dataset for analysis.
+2.3 Feature Engineering: Generate new features that could influence agricultural productivity, such as accumulated rainfall over specific periods, average temperature during critical growth stages, and so on.
 3. Data Loading (Load):
 Store the transformed and cleaned data in a structured format, suitable for analysis. Depending on the project's scale, this could range from a simple CSV file to a more robust database system like PostgreSQL, MySQL, or a cloud-based solution.
 4. Exploratory Data Analysis (EDA):
